@@ -1,0 +1,172 @@
+.footer {
+    background-color:white; /* Gray */
+    padding: 25px 40px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Top links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+
+.footer-links i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+/* Bottom info */
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left side */
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+/* Right side */
+.footer-right {
+    text-align: right;
+    color: white;
+}
+
+.footer-right .phone,
+.footer-right .address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: 5px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.profile-card {
+    width: 550px;
+    background:#fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    border: 3px solid #1e90ff;
+    margin-bottom: 15px;
+    
+}
+
+.header h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.header h3 {
+    font-size: 14px;
+    color: #dcdde1;
+}
+
+.tagline {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* About */
+.about {
+    padding: 25px;
+}
+
+.about-title {
+    background: #1e90ff;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Social Icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.social-links a {
+    font-size: 30px;
+    color: #2f3542;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #1e90ff;
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+    background: gray;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left,
+.footer-right div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color:white;
+    font-size: 16px;
+}
+
+.footer-right {
+    text-align: right;
+}
